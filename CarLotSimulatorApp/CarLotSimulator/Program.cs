@@ -46,9 +46,9 @@ namespace CarLotSimulator
             //Set the properties for each of the cars
             //Call each of the methods for each car
 
-            firstCar.MakeEngineNoise(firstCar.EngineNoise);
-            secondCar.MakeEngineNoise(secondCar.EngineNoise);
-            thirdCar.MakeEngineNoise(thirdCar.EngineNoise);
+            //firstCar.MakeEngineNoise(firstCar.EngineNoise);
+            //secondCar.MakeEngineNoise(secondCar.EngineNoise);
+            //thirdCar.MakeEngineNoise(thirdCar.EngineNoise);
 
             //*************BONUS*************//
 
@@ -56,6 +56,7 @@ namespace CarLotSimulator
 
             //*************BONUS X 2*************//
 
+            Console.WriteLine($"Number of cars created:  {CarLot.numberOfCars}");
 
             foreach (var car in carlot.CarList)
             {
@@ -63,9 +64,9 @@ namespace CarLotSimulator
                 Console.WriteLine(car.Make);
                 Console.WriteLine(car.Model);
                 Console.WriteLine();
-                car.MakeEngineNoise(car.EngineNoise);
-                car.MakeHonkNoise(car.HonkNoise);
-                Console.WriteLine();
+                //car.MakeEngineNoise(car.EngineNoise);
+                //car.MakeHonkNoise(car.HonkNoise);
+                //Console.WriteLine();
             }
 
 
