@@ -25,6 +25,7 @@ namespace CarLotSimulator
             firstCar.IsDriveable = true;
 
             carlot.CarList.Add(firstCar);
+            Console.WriteLine($"Number of cars created:  {CarLot.numberOfCars}");
 
             var secondCar = new Car()
             {
@@ -36,6 +37,7 @@ namespace CarLotSimulator
                 IsDriveable = false
             };
             carlot.CarList.Add(secondCar);
+            Console.WriteLine($"Number of cars created:  {CarLot.numberOfCars}");
 
 
             var thirdCar = new Car(2013, "Chevy", "Impala", "Vroom", "Beep", true);
